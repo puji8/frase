@@ -10,7 +10,7 @@ public class frase {
 				,'m','n','o','p','q','r','s','t','u','v','w','x','y','z',' '};
 		int[] quantitat = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 		int contador =0;
-
+		int numeros = {1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 0}
 		for(int i = 0; i < frase.length(); i++) {
 			for(int j = 0 ; j < lletra.length ; j++) {
 				if(lletra[j]==frase.charAt(i)){
